@@ -19,7 +19,7 @@ void reversestring(string &s)
 
 int main()
 {
-    string s = "abcde";
+    string s = "Gireesh";
 
     reversestring(s);
 

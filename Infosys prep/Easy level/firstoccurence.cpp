@@ -8,7 +8,6 @@ int firstOccur(int arr[], int n,int target)
         if(arr[i] == target)
         {
             return i;
-            break;
         }
     }
     return -1;
@@ -37,3 +36,6 @@ int main()
     }
     return 0;
 }
+
+//Time Complexity : O(n)
+//Space Complexity : O(1)
